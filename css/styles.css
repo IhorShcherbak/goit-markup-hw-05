@@ -586,6 +586,9 @@ border: none;
 .review-form-field-comment {
     margin-bottom: 16px;
 }
+.review-form-field-wrapper {
+margin-bottom: 8px;
+}
 
 .review-form-field-label {
     
@@ -599,8 +602,7 @@ border: none;
 }
 
 .review-form-input-wrapper {
-    position: relative;
-    margin-bottom: 8px;
+   position: relative;
 }
 
 .review-form-input {

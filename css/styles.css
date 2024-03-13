@@ -583,10 +583,12 @@ border: none;
     margin-bottom: 16px;
 }
 
-.review-form-field-wrapper {
+.review-form-field-comment {
     margin-bottom: 16px;
 }
-
+.review-form-input-wrapper {
+    margin-bottom: 8px;
+}
 .review-form-field-label {
     
         font-size: 12px;

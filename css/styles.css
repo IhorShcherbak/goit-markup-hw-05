@@ -560,8 +560,11 @@ visibility: visible;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
             background-color: #e7e9fc;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
             
+}
+.modal-close-btn-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
@@ -591,7 +594,8 @@ border: none;
         letter-spacing: 0.04em;
         color: #8e8f99;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 16px;
+
 }
 
 .review-form-input-wrapper {
